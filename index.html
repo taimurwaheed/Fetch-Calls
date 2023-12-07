@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fetch Calls</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="display-3 text-center m-3">
+            Students
+        </h1>
+        <div class="row">
+            <div class="col-md-3 col-12"></div>
+            <div class="col-md-6 col-12">                
+                <form action="">
+                    <input type="hidden" name="id" id="id">
+                    <div class="mb-3">
+                        <label for="rolnumber" class="form-label">Please enter your roll number</label>
+                        <input type="number" name="rolnumber" id="rolnumber" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Please enter your Name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Please enter your email</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <input type="submit" value="Save" class="btn btn-primary d-block mx-auto px-4">
+                    </div>
+                </form>                    
+            </div>
+            <div class="col-md-3 col-12"></div>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Roll Number</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="std-tbl">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

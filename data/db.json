@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "rollnumber": "6019",
+      "name": "Zain Ul Abideen",
+      "email": "znabideen@numl.edu.pk",
+      "id": 1
+    },
+    {
+      "rollnumber": "2806",
+      "name": "Muhammad Taimur",
+      "email": "taimurwaheed2003@gmail.com",
+      "id": 2
+    },
+    {
+      "rollnumber": "2813",
+      "name": "Ryan Afzal",
+      "email": "ryan123@gmail.com",
+      "id": 3
+    },
+    {
+      "rollnumber": "2791",
+      "name": "A Wasif",
+      "email": "awasif@icloud.com",
+      "id": 4
+    },
+    {
+      "rollnumber": "2828",
+      "name": "N Ali",
+      "email": "sae@yahoo.com",
+      "id": 5
+    },
+    {
+      "rollnumber": "6",
+      "name": "Zain Naveed",
+      "email": "znaveed123@yahoo.com",
+      "id": 6
+    }
+  ]
+}
